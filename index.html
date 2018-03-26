@@ -6,15 +6,12 @@
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
-    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
-         rel = "stylesheet">
+    <link rel="stylesheet" href="css/skill-bar.css">  
     <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
-
-
-    <article id="experience">
+    <section id="experience">
       <h3>Work Experience</h3>
         <div class="tabs tabs_default">
           <ul class="horizontal">
@@ -26,21 +23,29 @@
           <div id="tab-2"><span>Tab 2</span></div>
           <div id="tab-3"><span>Tab 3</span></div>
         </div>
-      </article>
+      </section>
       
-  <section id="progressbars">    
-    <div id="skills">
-    </div>
-    <div id="skills1">
-    </div>
-    <div id="skills2">
-    </div>
-</section>
+      <section id="skillssection">    
+        <div class="skillbar clearfix" data-percent="90%">
+        	<div class="skillbar-title"><span>HTML5</span></div>
+        	<div class="skillbar-bar"></div>
+        </div>
+        <div class="skillbar clearfix" data-percent="80%">
+          <div class="skillbar-title"><span>HTML5</span></div>
+          <div class="skillbar-bar"></div>
+        </div>
+        <div class="skillbar clearfix" data-percent="80%">
+          <div class="skillbar-title"><span>HTML5</span></div>
+          <div class="skillbar-bar"></div>
+        </div>
+        <div class="skillbar clearfix" data-percent="60%">
+          <div class="skillbar-title"><span>HTML5</span></div>
+          <div class="skillbar-bar"></div>
+        </div>
+      </section>
       
 
     <script src="js/jquery-1.9.1.min.js"></script>
-    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script src="js/jquery.tabslet.min.js"></script>
     <script src="js/main.js"></script>
 </body>
