@@ -1,0 +1,63 @@
+#experience {
+    width: 95%;
+    margin: auto;
+    border: 1px solid black;
+    max-width: 700px;
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+
+.tabs {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.tabs > DIV {
+    margin-top: 10px;
+    background: white;
+}
+
+.tabs > DIV SPAN {
+    color: #000000;
+    font-weight: 300;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 0 25px 0;
+}
+
+.tabs UL.horizontal {
+    list-style: none outside none;
+    margin: 0;
+}
+
+.tabs LI {
+    background: white;
+    border-bottom: 4px solid #e5e5e5;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.tabs A {
+    color: #cccccc;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 14px 24px;
+    text-decoration: none;
+}
+
+.tabs LI:hover {
+    background: #a0cac0;
+    border-bottom: 4px solid #68a697;
+}
+
+.tabs LI:hover A {
+    color: white;
+}
