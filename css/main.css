@@ -61,3 +61,7 @@ h3 {
 .tabs LI:hover A {
     color: white;
 }
+
+#progessbars {
+  background-color: #555555;
+}
