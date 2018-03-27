@@ -1,6 +1,7 @@
 body {
-  background-color: #e3e3e3;
+    background-color: #e3e3e3;
 }
+
 h3 {
     margin: auto;
     text-align: center;
@@ -13,18 +14,33 @@ h3 {
 }
 
 header {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
+
+nav {
+    text-align: center;
+    padding-top: 2%;
+}
+
+nav ul {
+    list-style: none;
+    display: block;
+    margin: auto;
+}
+
+nav li {
+    display: inline-block;
+}
+
 
 main {
 }
 
 #education {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 #experience {
-    width: 95%;
     margin: auto;
     border: 1px solid black;
     max-width: 700px;
@@ -32,7 +48,6 @@ main {
 
 #skillssection {
     margin: auto;
-    width: 100%;
     padding: 5% 0 5% 0;
     background-color: #ffffff;
 }
@@ -41,7 +56,7 @@ main {
 }
 
 footer {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 /* JQUERY Tabs CSS */
