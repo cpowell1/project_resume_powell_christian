@@ -43,7 +43,7 @@ header {
 }
 
 header img {
-    max-width: 500px;
+    max-width: 300px;
     margin: auto;
     display: block;
 }
@@ -256,7 +256,6 @@ button:hover {
 .tabs LI:hover A {
     color: white;
 }
-
 @media (min-width: 600px) {
 
     #mainnav {
@@ -274,7 +273,6 @@ button:hover {
         margin-right: 10px;
     }
 }
-
 @media (min-width: 700px) {
 
     header {
@@ -322,13 +320,16 @@ button:hover {
         font-size: 1.2rem;
     }
 }
-
 @media (min-width: 850px) {
+
     #education h1 {
-      padding-top: 20%;
+        padding-top: 20%;
+    }
+
+    header img {
+        max-width: 400px;
     }
 }
-
 @media (min-width: 1101px) {
 
     .container {
