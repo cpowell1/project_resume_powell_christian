@@ -9,3 +9,9 @@ $(document).ready(function () {
         }, 3000);
     });
 });
+
+$(document).ready(function () {
+    $('button').one('click', function () {
+        $('footer').append('<div><p>Email: christiant.powell@gmail.com</p><p>Phone: 555.555.5555</p></div>');
+    });
+});
