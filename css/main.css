@@ -167,8 +167,8 @@ button:hover {
 
 .tabs LI {
     background: white;
-    border-bottom: 4px solid #e5e5e5;
-    margin: 0 10px 0 0;
+    border-bottom: 4px solid #b78b9a;
+    margin: 10px 25px 0 0;
     display: inline-block;
 }
 
@@ -182,8 +182,8 @@ button:hover {
 }
 
 .tabs LI:hover {
-    background: #a0cac0;
-    border-bottom: 4px solid #68a697;
+    background: #b78b9a;
+    border-bottom: 2px solid #e3e3e3;
 }
 
 .tabs LI:hover A {
