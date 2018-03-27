@@ -288,6 +288,11 @@ button:hover {
         background-color: #f2f2f2;
     }
 
+    main img {
+        width: 80%;
+        max-width: 350px;
+    }
+
     #education {
         float: right;
         width: 40%;
@@ -315,6 +320,12 @@ button:hover {
         width: 20%;
         padding: 2% 0 2% 0;
         font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 850px) {
+    #education h1 {
+      padding-top: 20%;
     }
 }
 
