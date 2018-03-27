@@ -1,7 +1,7 @@
 .skillbar {
 	position:relative;
 	display:block;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 	width:100%;
 	background:#eee;
 	border-radius:3px;
@@ -23,7 +23,7 @@
 	position:absolute;
 	top:0;
 	left:0;
-  width:110px;
+  width: 180px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
@@ -52,7 +52,7 @@
 
 .skillbar-bar {
     height: 35px;
-	width:0px;
+	  width:0px;
 	background:#6adcfa;
 	border-radius:3px;
 	-moz-border-radius:3px;

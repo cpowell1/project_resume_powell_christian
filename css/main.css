@@ -62,11 +62,13 @@ main img {
     margin: auto;
     border: 1px solid black;
     max-width: 700px;
+    width: 95%;
 }
 
 #skillssection {
     margin: auto;
     padding: 5% 0 5% 0;
+    width: 90%;
 }
 
 #interests {
@@ -81,8 +83,8 @@ footer {
 button {
     margin: auto;
     display: block;
-    width: 50%;
-    padding: 5% 0 5% 0;
+    width: 30%;
+    padding: 4% 0 4% 0;
     text-align: center;
 }
 
