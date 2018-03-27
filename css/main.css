@@ -310,6 +310,11 @@ button:hover {
         background-color: #f2f2f2;
     }
 
+    #experience h1 {
+        padding-top: 2%;
+        margin-bottom: 3%;
+    }
+
     footer {
         background-color: white;
     }
