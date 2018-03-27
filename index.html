@@ -13,37 +13,50 @@
 </head>
 <body>
   <div class="container">
-    <header>
-      <img src="img/grey.gif" alt="signature" />
-    </header>
-        <div class="navbar">
-          <div class="dropdown">
-            <button class="dropbtn">Menu 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Home</a>
-              <a href="#">Education</a>
-              <a href="#">Experience</a>
-              <a href="#">Skills</a>
-              <a href="#">Interests</a>
-              <a href="#">Contact</a>
-            </div>
-          </div> 
-        </div>
-
-    
+    <header id="home">
+        <img src="img/grey.gif" alt="signature" />
+          <div class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn">Menu</button>
+              <div class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#skillssection">Skills</a>
+                <a href="#interests">Interests</a>
+                <a href="#footer">Contact</a>
+              </div>
+            </div> 
+            <nav id="mainnav">
+              <ul>
+                <li>Home</li>
+                <li>Education</li>
+                <li>Experience</li>
+              </ul>
+            </nav>
+          </div>
+        </header>
     <main>
       <img src="img/headshot.jpg" alt="headshot" />
      </main>
     
     <section id="education">
       <h1>Education</h1>
-      <ul>
-        <li>University of Mississippi</li>
-        <li>University of Florida- MBA</li>
-        <li>University of Florida- MAMC</li>
-      </ul>
+      <div class="schools">
+        <h3>University of Florida</h3>
+        <h4>Master of Mass Communication</h4> <h4>in Web Design and Online Communication</h4>
+        <h4>2018</h4>
+      </div>
+      <div class="schools">
+        <h3>University of Florida</h3>
+        <h4>Master of Business Administration</h4>
+        <h4>2017</h4>
+      </div>
+        <div class="schools">
+          <h3>University of Mississippi</h3>
+          <h4>Bachelor of Business Administration</h4>
+          <h4>2016</h4>
+      </div>
     </section>
 
     <section id="experience">
@@ -91,11 +104,10 @@
           <img src="img/outdoors.jpeg" class="interestimg" alt="run" />
       </section>
       
-      <footer>
+      <footer id="footer">
         <button>Contact Me</button>
       </footer>
-    </div>
-      
+    </div> 
 
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/jquery.tabslet.min.js"></script>

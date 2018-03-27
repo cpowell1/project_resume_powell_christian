@@ -6,14 +6,21 @@ h1 {
     margin: auto;
     text-align: center;
     font-family: 'Satisfy';
-    padding: 5% 0 5% 0;
+    padding: 5% 0 0% 0;
 }
 
 h3 {
     margin: auto;
     text-align: center;
-    padding: 5% 0 5% 0;
+    padding: 5% 0 2% 0;
     font-family: 'Satisfy';
+}
+
+h4 {
+    margin: auto;
+    text-align: center;
+    font-family: 'Arsenal';
+    padding-bottom: 1%;
 }
 
 p {
@@ -41,63 +48,78 @@ header img {
     display: block;
 }
 
+/* Mobile Nav */
 .navbar {
-  overflow: hidden;
-  background-color: #ffffff;
-  font-family: 'Arsenal';
-  color: #000000;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'Arsenal';
+    color: #000000;
 }
 
-/* Links inside the navbar */
 .navbar a {
-  font-size: 1rem;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-/* The dropdown container */
 .dropdown {
-  margin: auto;
-  text-align: center;
-  display: block;
-  overflow: hidden;
+    margin: auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 1rem;
-  border: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: #b78b9a;
-  font-family: 'Satisfy'; 
-  margin: 0 auto;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #b78b9a;
+    font-family: 'Satisfy';
+    margin: 0 auto;
 }
 
 .dropdown-content {
-  display: none;
-  background-color: #f9f9f9;
-  width: 30%;
-  margin: auto;
-  border: 1px solid #555555;
-  z-index: 1;
+    display: none;
+    background-color: #f9f9f9;
+    width: 30%;
+    margin: auto;
+    border: 1px solid #555555;
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  display: block;
-  text-align: center;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+    background-color: #dddddd;
 }
 
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Tablet and Desktop Nav */
+#mainnav {
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+}
+#mainnav ul {
+  list-style: none;
   display: block;
+}
+#mainnav li {
+  display: inline-block;
+  padding-right: 20px;
+  font-family: 'Arsenal';
 }
 
 main {
@@ -129,8 +151,12 @@ main img {
 #experience {
     margin: auto;
     width: 100%;
-    padding: 1% 0 5% 0;
+    padding: 1% 0 8% 0;
     background-color: #ffffff;
+}
+
+#experience h1 {
+  margin-bottom: 8%;
 }
 
 #skillssection {
@@ -182,7 +208,7 @@ button:hover {
     font-family: 'Arsenal';
     border: 1px solid black;
     max-width: 700px;
-    padding: 50px 0 50px 0;
+    padding: 40px 0 40px 0;
 }
 
 .tabs > DIV {
@@ -230,3 +256,5 @@ button:hover {
     color: white;
 }
 
+
+  
