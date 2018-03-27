@@ -43,7 +43,7 @@ header {
 }
 
 header img {
-    max-width: 300px;
+    max-width: 500px;
     margin: auto;
     display: block;
 }
@@ -108,7 +108,7 @@ header img {
 /* Tablet and Desktop Nav */
 #mainnav {
     margin: auto;
-    display: block;
+    display: none;
     text-align: center;
     background-color: #fff;
 }
@@ -256,5 +256,63 @@ button:hover {
     color: white;
 }
 
+@media (min-width: 600px) {
+  #mainnav {
+    display: block;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .interestimg {
+    display: inline-block;
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 10px;
+  }
+}
 
+@media (min-width: 700px) {
+  header {
+    padding-bottom: 5%;
+  }
+  main {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    background-color: #f2f2f2;
+  }
   
+  #education {
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 2%;
+  }
+  
+  #skillssection {
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+  }
+  
+  #interests {
+    float: right;
+    width: 45%;
+    background-color: #f2f2f2;
+  }
+  footer {
+    background-color: white;
+  }
+  button {
+    width: 20%;
+    padding: 2% 0 2% 0;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1101px) {
+  .container {
+    border: 1px solid #e3e3e3;
+  }
+  
+}
