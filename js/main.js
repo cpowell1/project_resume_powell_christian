@@ -15,3 +15,11 @@ $(document).ready(function () {
         $('footer').append('<div><p>Email: christiant.powell@gmail.com</p><p>Phone: 555.555.5555</p></div>');
     });
 });
+
+$(document).ready(function () {
+    $('.interestimg').hover(function () {
+        $(this).css('opacity', '.5');
+    }, function () {
+        $(this).css('opacity', '1');
+    });
+});
