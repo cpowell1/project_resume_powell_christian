@@ -99,10 +99,20 @@ main img {
 }
 
 #interests {
+    background-color: #ffffff;
+    padding: 5% 0 5% 0;
+}
+
+.interestimg {
+    display: block;
+    max-width: 250px;
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 footer {
-    background-color: #ffffff;
     padding: 5% 0 5% 0;
     width: 100%;
 }
