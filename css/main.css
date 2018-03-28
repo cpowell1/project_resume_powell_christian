@@ -270,7 +270,7 @@ button:hover {
         display: inline-block;
         width: 40%;
         margin-top: 5%;
-        margin-right: 10px;
+        margin-left: 7%;
     }
 }
 @media (min-width: 700px) {
