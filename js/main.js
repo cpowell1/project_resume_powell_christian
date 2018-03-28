@@ -1,4 +1,4 @@
-//Intiates Tabslet Plugin
+//Initiates Tabslet Plugin
 $(document).ready(function () {
     $('.tabs').tabslet();
 });

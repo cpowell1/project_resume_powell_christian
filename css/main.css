@@ -267,6 +267,8 @@ button:hover {
 .tabs LI:hover A {
     color: white;
 }
+
+/* Media Queries */
 @media (min-width: 600px) {
 
     #mainnav {
